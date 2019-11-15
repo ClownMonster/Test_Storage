@@ -1,0 +1,145 @@
+body
+{
+	background: url("../images/kali3.jpg") no-repeat;
+	background-size: cover;
+	color: #e9ede0;
+}
+
+#header
+{
+	color: #e9ede0;
+	text-align: center;
+	margin-top: 2rem;
+	font-family: poppings;
+	font-size: 50px;
+	font-weight: 400;
+
+}
+nav
+{	margin-top: 2rem;
+	margin-bottom: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+nav > select
+{
+	width: 13rem;
+	margin-bottom: 1.5rem;
+	outline: none;
+	border:0px;
+	height: 2rem;
+	background: white;
+	font-family: poppings;
+	box-shadow: 1rem 0rem 1rem .7rem;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+
+nav >select > option
+{
+	background: #BCE1ED;
+	font-family: poppings;
+	box-shadow: .4rem 0rem 1rem .7rem;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+article > h3
+{
+	color: #e9ede0;
+	font-family: poppings;
+	text-indent: 1rem;
+}
+
+article > p
+{
+	color:#4884de;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px)
+{
+		body
+		{
+			background: #2A2C41;
+		}
+
+		#header
+		{
+			color: #e9ede0;
+			text-align: center;
+			margin-top: 2rem;
+			font-family: poppings;
+			font-size: 40px;
+			font-weight: 400;
+
+		}
+
+		#h-img
+		{
+
+
+		}
+
+		nav
+		{	margin-top: 4rem;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-around;
+
+		}
+
+		nav > select
+		{
+			width: 13rem;
+			margin-bottom: 2rem;
+			outline: none;
+			border:0px;
+			height: 2rem;
+			background: white;
+			font-family: poppings;
+			box-shadow: .4rem 0rem 1rem .7rem;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+		}
+
+		nav >select > option
+		{
+			background: #BCE1ED;
+			font-family: poppings;
+			box-shadow: .4rem 0rem 1rem .7rem;
+			text-align: center;
+			cursor: pointer;
+
+		}
+
+		article > h3
+		{
+			color: #e9ede0;
+			font-family: poppings;
+			text-indent: 1rem;
+		}
+
+		article > p
+		{
+			color:#4884de;
+		}
+}
