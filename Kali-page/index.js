@@ -1,5 +1,13 @@
-function main()
+function two()
 {
+		document.getElementById("test").innerHTML = "DID it";
+		document.getElementById("header").innerHTML = "DID it";	
+		alert("OK");
+		return;
+}
+
+function main()
+{	
 	name = document.getElementById("username").value;
 	passwd = document.getElementById("passwd").value;
 	if(name == "" && passwd == "")
@@ -18,7 +26,10 @@ function main()
 	}
 	else 
 	{
-		document.getElementById("my-login").action = "./content/home.html";
+		document.getElementById("my-login").action = "./home.html";
+		alert("first");
+		two();
+
 	}
 	
 	var x = document.getElementById("error");
@@ -29,6 +40,7 @@ function main()
   	else {
    	 x.style.display = "none";
  	 }
- 	 
-
+ 	
 }
+
+
