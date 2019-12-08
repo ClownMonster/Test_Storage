@@ -4,7 +4,7 @@
 
         <script>
         function validateForm() {
-        var x = document.forms["login-form"]["username"].value;
+        var x = document.getElementById("username").value;
         if (x==null || x=="") {
             alert("Name must be filled out");
             return false;
