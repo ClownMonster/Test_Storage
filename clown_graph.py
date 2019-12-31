@@ -1,6 +1,6 @@
 # including  the modules for multi array and graph
-import numpy as np 
-from  matplotlib import pyplot as plt 
+import numpy as np # importing multi dimentisonal array 
+from  matplotlib import pyplot as plt # import matplot which is used to plot the graphs in python
 
 # takling input from the user for the range of the graph
 x_range_initial = int(input("Input the Initial range of X >>  "))
@@ -21,7 +21,7 @@ eqn = input("Enter the standard equation to be Ploted >>")
 y = eval(eqn)
 # ploting the graph
 plt.title("Required Graph for your equation :")
-plt.xlabel("X-axis")
-plt.ylabel("Y-axis")
+plt.xlabel("X-axis") # side label for x axis
+plt.ylabel("Y-axis") # side label for y axis
 plt.plot(x, y)
-plt.show()
+plt.show() # calling the method to plot the grraph for the user data
