@@ -34,7 +34,7 @@ student *Search(student *sptr, int srollno)
 				return sptr;
 			else sptr = sptr->next;
 		}while(sptr != head);
-	  return NULL;
+ return NULL;
 	}
 
 }
