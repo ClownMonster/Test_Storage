@@ -18,7 +18,7 @@ y = np.arange(y_range_initial, y_range_final)
 
 # asking the user to input the equation to be ploted
 eqn = input("Enter the standard equation to be Ploted >>")
-y = eval(eqn)
+y = eval(eqn) # evaluating the user input equation
 # ploting the graph
 plt.title("Required Graph for your equation :")
 plt.xlabel("X-axis")
