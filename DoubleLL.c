@@ -39,7 +39,7 @@ student *Search(student *sptr, int srollno)
 
 }
 
-student *creat_new_node(student *next, student *prev)
+student *creat_new_node(student* next, student* prev)
 {
 	student *newstudent = (student *)malloc(sizeof(student));
 	strcpy(newstudent->name,sname);
