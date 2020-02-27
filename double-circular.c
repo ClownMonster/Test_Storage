@@ -19,7 +19,7 @@ void Demo_options()
 	printf("1.Demo Options\n2.Search\n3.Insert\n4.Delete\n5.Print Details\n6.Quit\n");
 }
 
-student *Search(student *sptr, int srollno)
+student *Search(student* sptr, int srollno)
 {
 	if(head == NULL)
 	{
