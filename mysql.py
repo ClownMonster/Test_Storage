@@ -8,10 +8,10 @@ con.commit()
 cursor = con.execute('''SELECT Name, password FROM Login''')
 for row in cursor:
   print(f"updated password is : {row[1]}")
-cursor = con.execute('''SELECT Name, password FROM Login''')
+cursor = con.execute('''select Name, password from Login''')
 for row in cursor:
   print(f" name : {row[0]}")
   print(f" password : {row[1]}")
 
 print("closing database")
-con.close()
+con.close() #closing database connection
