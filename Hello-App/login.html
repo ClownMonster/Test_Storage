@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Help Me</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+	<!-- Infolder links -->
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+	<div id="top-frame">SIGN UP</div>
+	
+ <div id="form-one">
+        <form name="login-form" id="login-form" action="javascript:void(0);" >
+            <h2 style="color: blue;"></h2>
+            <input id="AN" type ="Number" spellcheck="off"  autocomplete="off" minlength="12" placeholder="Adhar-Number" maxlength="12" ><br>
+            <input id="PN" type="tel" spellcheck="off" autocomplete="off" minlength="12" placeholder="Phone Number" maxlength="12" ><br>
+            <input type="submit" value="GET OTP" onclick="main()"><br>
+        </form>
+</div>
+
+
+<div id="e-otp">
+	<form id ="osub" action="javascript:void(0);">
+	<input id ="otp" type="text"  maxlength="4" placeholder="Enter your OTP" autocomplete="off" spellcheck="off">
+	<input  type="submit" onclick="main2()" value="Verify">
+	<p>One time password sent to XXX-XXX-XX90<p onclick="two()">Resend?</p>
+</form>
+</div>
+<div id="bottom">
+	<p>Already Have an Account <a href="">Login</a></p>
+	<p >Help</a>
+	
+</div>
+
+<!-- Additionals for jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
