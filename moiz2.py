@@ -6,7 +6,7 @@ import scipy
 from random import randint
 from scipy import signal
 
-np.random.seed(1)
+np.random.seed(1) # system refresh seed 
 
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
@@ -21,7 +21,7 @@ fig.add_trace(go.Scatter(
     marker=dict(size=2, color='black'),
     name='Sine'
 ))
-
+ 
 fig.add_trace(go.Scatter(
     x=x,
     y=y_noise,
