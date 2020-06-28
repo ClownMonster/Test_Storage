@@ -16,6 +16,7 @@ char sname[20];
 void Demo_options()
 {
 	printf("*******Double Linked List********\n");
+	
 	printf("1.Demo Options\n2.Search\n3.Insert\n4.Delete\n5.Print Details\n6.Quit\n");
 }
 
