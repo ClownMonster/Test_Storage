@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Content</title>
+    </head>
+
+    <body>
+        {% for i in object_list  %}
+        {{ i.title }}
+        {{  i.content }}
+        {{ i.required }}
+        {% endfor %}
+    </body>
+</html>

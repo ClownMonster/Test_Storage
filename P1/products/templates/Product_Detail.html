@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Details</title>
+    </head>
+    <body>
+        <h1>{{ object.title }}</h1>
+        {% if description %}<h1>{{ object.description }}</h1>{% else %}<h1>description Comming soon</h1>{% endif %}
+        <h1>{{ object.price }}</h1>
+    </body>
+
+</html>
