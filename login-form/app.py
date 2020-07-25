@@ -40,7 +40,7 @@ def log_the_user_in(username):
     return render_template('profile.html', username=username)
 
 
-@app.route("/")
+@app.route("/") #index page or login page
 @app.route('/login', methods=['POST', 'GET'])
 def login():
     error = None
